@@ -1,0 +1,7 @@
+<?php
+// Add this inside App\Console\Kernel::schedule():
+//
+// $schedule->command('billing:generate-due-invoices')->everyFiveMinutes();
+//
+// Then configure the server cron:
+// * * * * * php /path/to/project/artisan schedule:run
