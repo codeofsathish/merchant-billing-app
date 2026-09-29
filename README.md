@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Subscription Billing & Usage Metering - Laravel
 
 Target: Laravel 10 + PHP 8.1+, MySQL 8/MariaDB.
@@ -166,3 +167,6 @@ The tests cover:
 ## Important production refinement
 
 The provided implementation is deliberately small and interview-friendly. For truly high write volume, change the usage endpoint to a bulk ingestion endpoint and replace `firstOrCreate` with an atomic insert-ignore/upsert pattern specific to your database. The unique key remains the source of truth for idempotency.
+=======
+# merchant-billing-app
+>>>>>>> 1103fdd3a8b5cbce3d4db5f8bbbebac9da5980a7
